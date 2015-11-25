@@ -15,6 +15,7 @@
 		4BBDED611C0568C200881C60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBDED5F1C0568C200881C60 /* LaunchScreen.storyboard */; };
 		4BBDED6C1C0568C200881C60 /* CuttingDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDED6B1C0568C200881C60 /* CuttingDateTests.m */; };
 		4BBDED771C0568C200881C60 /* CuttingDateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDED761C0568C200881C60 /* CuttingDateUITests.m */; };
+		4BBDED8B1C05729700881C60 /* LEO_CutTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDED8A1C05729700881C60 /* LEO_CutTime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4BBDED721C0568C200881C60 /* CuttingDateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuttingDateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBDED761C0568C200881C60 /* CuttingDateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CuttingDateUITests.m; sourceTree = "<group>"; };
 		4BBDED781C0568C200881C60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BBDED891C05729700881C60 /* LEO_CutTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEO_CutTime.h; sourceTree = "<group>"; };
+		4BBDED8A1C05729700881C60 /* LEO_CutTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEO_CutTime.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		4BBDED451C0568C100881C60 = {
 			isa = PBXGroup;
 			children = (
+				4BBDED881C05729700881C60 /* CuttingDateTool */,
 				4BBDED501C0568C100881C60 /* CuttingDate */,
 				4BBDED6A1C0568C200881C60 /* CuttingDateTests */,
 				4BBDED751C0568C200881C60 /* CuttingDateUITests */,
@@ -138,6 +142,15 @@
 				4BBDED781C0568C200881C60 /* Info.plist */,
 			);
 			path = CuttingDateUITests;
+			sourceTree = "<group>";
+		};
+		4BBDED881C05729700881C60 /* CuttingDateTool */ = {
+			isa = PBXGroup;
+			children = (
+				4BBDED891C05729700881C60 /* LEO_CutTime.h */,
+				4BBDED8A1C05729700881C60 /* LEO_CutTime.m */,
+			);
+			path = CuttingDateTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				4BBDED591C0568C200881C60 /* ViewController.m in Sources */,
 				4BBDED561C0568C200881C60 /* AppDelegate.m in Sources */,
+				4BBDED8B1C05729700881C60 /* LEO_CutTime.m in Sources */,
 				4BBDED531C0568C100881C60 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +512,7 @@
 				4BBDED7D1C0568C200881C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BBDED7E1C0568C200881C60 /* Build configuration list for PBXNativeTarget "CuttingDateTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				4BBDED801C0568C200881C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BBDED811C0568C200881C60 /* Build configuration list for PBXNativeTarget "CuttingDateUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				4BBDED831C0568C200881C60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
